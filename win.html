@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        html {
+  background: linear-gradient(to bottom right, #b8dcda, #019b9d);
+  min-height: 100vh;
+  display: grid;
+  place-items:center;
+}
+
+body {
+  width: 1000px;
+  height: 666px;
+}
+
+img {
+  position: absolute;
+}
+
+#logotype {
+  animation: logotype 5s linear infinite;
+}
+@keyframes logotype {
+  50% {
+    transform: translateY(4%);
+  }
+}
+#phone {
+  animation: phone 8s linear infinite;
+}
+@keyframes phone {
+  25% {
+    transform: translateX(-2%);
+  }
+  75% {
+    transform: translateX(2%);
+  }
+}
+
+#coins {
+  animation: coins 5s linear infinite;
+}
+@keyframes coins {
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+#blobs {
+  transform: translateY(-15px);
+  animation: blobs 8s linear infinite;
+}
+@keyframes blobs {
+  25% {
+    transform: translateY(-15px) rotate(3deg);
+  }
+  75% {
+    transform: translateY(-15px) rotate(-3deg);
+  }
+}
+    </style>
+    <div>
+        <img id='blobs' src='téléchargement.png'> 
+         <img id='phone' src='téléchargement (1).png'>
+          <img id='coins' src='téléchargement (2).png'>
+         <img id='logotype' src='a7iit.png' style='margin: 90px 120px;'>
+       </div>
+</body>
+</html>
