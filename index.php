@@ -1,5 +1,4 @@
 <?php
-// Connexion à la base de données
 $servername = "localhost";
 $username = "game";
 $password = "root";

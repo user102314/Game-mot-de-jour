@@ -56,11 +56,21 @@ input[type="text"] {
     
 }
 
+.green-background {
+    transition: background 0.5s; /* Durée de la transition de couleur */
+}
+.blue-background {
+    transition: background 0.5s; /* Durée de la transition de couleur */
+}
+.orange-background {
+    transition: background 0.5s; /* Durée de la transition de couleur */
+}
+
 .button {
     padding: 10px 20px;
     font-size: 1.2em;
     background-color: #000000;
-    color: #fff;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
