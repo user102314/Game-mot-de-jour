@@ -118,7 +118,6 @@ document.addEventListener("keydown", function(event) {
     }
 });
 
-
 function moveToNext(row,prevInputId, currentInputId, nextInputId) {
     
     document.getElementById(currentInputId).value = document.getElementById(currentInputId).value.toUpperCase();
@@ -158,7 +157,5 @@ function moveToNext(row,prevInputId, currentInputId, nextInputId) {
             document.getElementById(currentInputId).focus();
         }
     }
-    
-    
 }
 
