@@ -1,0 +1,4 @@
+<!ELEMENT joueurs (joueur+)>
+<!ELEMENT joueur (nom, score)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT score (#PCDATA)>

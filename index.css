@@ -3,9 +3,40 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
-
+.tran1{
+    
+}
+.tran2{
+    margin-left: 9px;
+    color:rgb(16, 16, 92);font-weight: bold;
+    margin-top: 5px;
+    margin-left: 2px;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+#demo{
+    position: relative;
+    top: -15px;
+}
+.utilisateur{
+    width: 180px;
+    height: 60px;
+    background: white;
+    display: flex;
+    padding: 3ps 3px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background: rgb(0, 0, 20);
+    box-shadow: 0 0 10px white;
+    color: ;
+    
+}
 .game {
     max-width: 600px;
     margin: 90px auto;
@@ -13,7 +44,8 @@ body {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px white;
-    background: url(backgroung.PNG);background-repeat: no-repeat;background-size: cover;
+    background: rgb(0, 0, 20);
+    /*background: url(backgroung.PNG);background-repeat: no-repeat;background-size: cover;*/
     background-position: center;
     
 }
@@ -52,7 +84,7 @@ input[type="text"] {
     font-size: 1.2em;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background: rgb(0, 0, 14);
+    background: rgb(255, 255, 255);
 }
 
 .verif {
@@ -94,3 +126,7 @@ input[type="text"] {
 .feedback p, .result p {
     font-size: 1.2em;
 }
+
+
+
+
